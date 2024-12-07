@@ -1,0 +1,312 @@
+{
+    "Heart Attack Prediction Dataset": {
+        "SVC(probability=True)": {
+            "accuracy": 0.8442622950819672,
+            "f1": 0.8506306311858687,
+            "auc": 0.9105259823484323
+        },
+        "KNeighborsClassifier()": {
+            "accuracy": 0.8147540983606557,
+            "f1": 0.8314353555377016,
+            "auc": 0.8676398546821241
+        },
+        "LogisticRegression(n_jobs=-1)": {
+            "accuracy": 0.860655737704918,
+            "f1": 0.872378930681377,
+            "auc": 0.906584978963725
+        },
+        "MLPClassifier(max_iter=1000)": {
+            "accuracy": 0.7836065573770492,
+            "f1": 0.8009086828868824,
+            "auc": 0.8576749443760502
+        },
+        "RandomForestClassifier(n_jobs=-1)": {
+            "accuracy": 0.840983606557377,
+            "f1": 0.8502346087653203,
+            "auc": 0.9141548794436727
+        },
+        "GradientBoostingClassifier()": {
+            "accuracy": 0.7836065573770491,
+            "f1": 0.8008344327989423,
+            "auc": 0.8828363589818755
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('rf', RandomForestClassifier(n_jobs=-1))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8508196721311476,
+            "f1": 0.8636931022126838,
+            "auc": 0.9098491935221216
+        },
+        "StackingClassifier(estimators=[('svm', SVC(probability=True)),\n                               ('mlp', MLPClassifier(max_iter=1000))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8229508196721312,
+            "f1": 0.8325084291814768,
+            "auc": 0.9018203838837169
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('mlp', MLPClassifier(max_iter=1000))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8295081967213115,
+            "f1": 0.8468668754321061,
+            "auc": 0.9050681241664688
+        },
+        "StackingClassifier(estimators=[('knn', KNeighborsClassifier(n_jobs=-1)),\n                               ('gb', GradientBoostingClassifier())],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8229508196721312,
+            "f1": 0.8416880156899659,
+            "auc": 0.8958469350553638
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('gb', GradientBoostingClassifier())],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8377049180327869,
+            "f1": 0.8543758978372253,
+            "auc": 0.9111201387624537
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('knn', KNeighborsClassifier(n_jobs=-1))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.839344262295082,
+            "f1": 0.8562699263036363,
+            "auc": 0.9014463011082849
+        }
+    },
+    "Heart Failure Prediction": {
+        "SVC(probability=True)": {
+            "accuracy": 0.8875,
+            "f1": 0.9043700839501316,
+            "auc": 0.9344711807958926
+        },
+        "KNeighborsClassifier()": {
+            "accuracy": 0.8494565217391304,
+            "f1": 0.8677898401715931,
+            "auc": 0.8963586424339759
+        },
+        "LogisticRegression(n_jobs=-1)": {
+            "accuracy": 0.8625,
+            "f1": 0.8803939460110897,
+            "auc": 0.9221302242268041
+        },
+        "MLPClassifier(max_iter=1000)": {
+            "accuracy": 0.8402173913043477,
+            "f1": 0.8572124222587633,
+            "auc": 0.907611682409786
+        },
+        "RandomForestClassifier(n_jobs=-1)": {
+            "accuracy": 0.8663043478260869,
+            "f1": 0.8823969811358003,
+            "auc": 0.9274264826636915
+        },
+        "GradientBoostingClassifier()": {
+            "accuracy": 0.8766304347826086,
+            "f1": 0.8892118154831966,
+            "auc": 0.9286376131663474
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('rf', RandomForestClassifier(n_jobs=-1))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8728260869565219,
+            "f1": 0.8902457289063811,
+            "auc": 0.9337301705354788
+        },
+        "StackingClassifier(estimators=[('svm', SVC(probability=True)),\n                               ('mlp', MLPClassifier(max_iter=1000))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8581521739130435,
+            "f1": 0.8764413105535993,
+            "auc": 0.9195295516907095
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('mlp', MLPClassifier(max_iter=1000))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8608695652173912,
+            "f1": 0.8770692362331859,
+            "auc": 0.9222993189784805
+        },
+        "StackingClassifier(estimators=[('knn', KNeighborsClassifier(n_jobs=-1)),\n                               ('gb', GradientBoostingClassifier())],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8701086956521739,
+            "f1": 0.8827761350822187,
+            "auc": 0.9245053997726126
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('gb', GradientBoostingClassifier())],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8766304347826086,
+            "f1": 0.8920897085824322,
+            "auc": 0.9368160216389347
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('knn', KNeighborsClassifier(n_jobs=-1))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8820652173913043,
+            "f1": 0.896491872596539,
+            "auc": 0.9294325176590448
+        }
+    },
+    "Heart Failure Prediction 2": {
+        "SVC(probability=True)": {
+            "accuracy": 0.82,
+            "f1": 0.6976891963734069,
+            "auc": 0.8673049780894599
+        },
+        "KNeighborsClassifier()": {
+            "accuracy": 0.7633333333333334,
+            "f1": 0.5397374996143597,
+            "auc": 0.805952417485857
+        },
+        "LogisticRegression(n_jobs=-1)": {
+            "accuracy": 0.835,
+            "f1": 0.7291522253053817,
+            "auc": 0.8657617665213244
+        },
+        "MLPClassifier(max_iter=1000)": {
+            "accuracy": 0.765,
+            "f1": 0.6384644486667442,
+            "auc": 0.8264010637252444
+        },
+        "RandomForestClassifier(n_jobs=-1)": {
+            "accuracy": 0.8316666666666667,
+            "f1": 0.7116155055689939,
+            "auc": 0.9127760865320445
+        },
+        "GradientBoostingClassifier()": {
+            "accuracy": 0.8300000000000001,
+            "f1": 0.7209072196853926,
+            "auc": 0.8714411755885066
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('rf', RandomForestClassifier(n_jobs=-1))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8400000000000001,
+            "f1": 0.7291803872838356,
+            "auc": 0.9025120858366984
+        },
+        "StackingClassifier(estimators=[('svm', SVC(probability=True)),\n                               ('mlp', MLPClassifier(max_iter=1000))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.7983333333333333,
+            "f1": 0.6600471203046897,
+            "auc": 0.8717374989703144
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('mlp', MLPClassifier(max_iter=1000))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8066666666666666,
+            "f1": 0.6570604120370676,
+            "auc": 0.8805015407914505
+        },
+        "StackingClassifier(estimators=[('knn', KNeighborsClassifier(n_jobs=-1)),\n                               ('gb', GradientBoostingClassifier())],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8283333333333334,
+            "f1": 0.7205188715802527,
+            "auc": 0.9066597912069494
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('gb', GradientBoostingClassifier())],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.85,
+            "f1": 0.7646436996411796,
+            "auc": 0.9251661380650068
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('knn', KNeighborsClassifier(n_jobs=-1))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.8316666666666667,
+            "f1": 0.693842254658435,
+            "auc": 0.9036790274146208
+        }
+    },
+    "Cardiovascular Disease Dataset": {
+        "SVC(probability=True)": {
+            "accuracy": 0.7292000000000001,
+            "f1": 0.7135819008107018,
+            "auc": 0.7874961721595094
+        },
+        "KNeighborsClassifier()": {
+            "accuracy": 0.6992999999999998,
+            "f1": 0.6934326018012407,
+            "auc": 0.7441445154437545
+        },
+        "LogisticRegression(n_jobs=-1)": {
+            "accuracy": 0.7263999999999999,
+            "f1": 0.7128197876486844,
+            "auc": 0.7875491704529475
+        },
+        "MLPClassifier(max_iter=1000)": {
+            "accuracy": 0.7237,
+            "f1": 0.71915458530666,
+            "auc": 0.778706382862872
+        },
+        "RandomForestClassifier(n_jobs=-1)": {
+            "accuracy": 0.734,
+            "f1": 0.7316322499102228,
+            "auc": 0.7882164536022712
+        },
+        "GradientBoostingClassifier()": {
+            "accuracy": 0.737,
+            "f1": 0.7267413909018411,
+            "auc": 0.7969031775992086
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('rf', RandomForestClassifier(n_jobs=-1))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.7323999999999999,
+            "f1": 0.7245412297224517,
+            "auc": 0.7893428563425358
+        },
+        "StackingClassifier(estimators=[('svm', SVC(probability=True)),\n                               ('mlp', MLPClassifier(max_iter=1000))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.739,
+            "f1": 0.732505600552953,
+            "auc": 0.7934506319516601
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('mlp', MLPClassifier(max_iter=1000))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.7373999999999999,
+            "f1": 0.7247230294141028,
+            "auc": 0.8008445844838356
+        },
+        "StackingClassifier(estimators=[('knn', KNeighborsClassifier(n_jobs=-1)),\n                               ('gb', GradientBoostingClassifier())],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.7349,
+            "f1": 0.7253877872782701,
+            "auc": 0.7960975442661852
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('gb', GradientBoostingClassifier())],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.7333000000000001,
+            "f1": 0.7219987699011615,
+            "auc": 0.7986097017989726
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('knn', KNeighborsClassifier(n_jobs=-1))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.7272,
+            "f1": 0.716723644064444,
+            "auc": 0.7896733499150363
+        }
+    },
+    "Indicators of Heart Disease": {
+        "SVC(probability=True)": {
+            "accuracy": 0.9044000000000001,
+            "f1": 0.0,
+            "auc": 0.712026893094384
+        },
+        "KNeighborsClassifier()": {
+            "accuracy": 0.8979000000000001,
+            "f1": 0.07015801122603907,
+            "auc": 0.6491610650369605
+        },
+        "LogisticRegression(n_jobs=-1)": {
+            "accuracy": 0.9074,
+            "f1": 0.13363641976713658,
+            "auc": 0.8173752930448819
+        },
+        "MLPClassifier(max_iter=1000)": {
+            "accuracy": 0.873,
+            "f1": 0.21737651442677466,
+            "auc": 0.709384653792591
+        },
+        "RandomForestClassifier(n_jobs=-1)": {
+            "accuracy": 0.9027000000000001,
+            "f1": 0.040480161538533496,
+            "auc": 0.7565480423026948
+        },
+        "GradientBoostingClassifier()": {
+            "accuracy": 0.9047000000000001,
+            "f1": 0.10868257584375407,
+            "auc": 0.8131563670895281
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('rf', RandomForestClassifier(n_jobs=-1))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.9068999999999999,
+            "f1": 0.10449347202113639,
+            "auc": 0.8116898360875776
+        },
+        "StackingClassifier(estimators=[('svm', SVC(probability=True)),\n                               ('mlp', MLPClassifier(max_iter=1000))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.9072000000000001,
+            "f1": 0.021192738976680354,
+            "auc": 0.7155823299712036
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('mlp', MLPClassifier(max_iter=1000))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.906,
+            "f1": 0.10437848788566709,
+            "auc": 0.814786287229776
+        },
+        "StackingClassifier(estimators=[('knn', KNeighborsClassifier(n_jobs=-1)),\n                               ('gb', GradientBoostingClassifier())],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.9004999999999999,
+            "f1": 0.05544398263345107,
+            "auc": 0.790186439510858
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('gb', GradientBoostingClassifier())],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.9035,
+            "f1": 0.09490930357980835,
+            "auc": 0.8020915622813322
+        },
+        "StackingClassifier(estimators=[('lr', LogisticRegression(n_jobs=-1)),\n                               ('knn', KNeighborsClassifier(n_jobs=-1))],\n                   final_estimator=LogisticRegression(), n_jobs=-1)": {
+            "accuracy": 0.9056000000000001,
+            "f1": 0.1064552745856661,
+            "auc": 0.8115881709663857
+        }
+    }
+}
