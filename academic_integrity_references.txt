@@ -1,0 +1,26 @@
+data sources:   kaggle (elaborate)
+www.toptal.com/developers/gitignore:    .gitignore creations
+standard scaler: https://scikit-learn.org/1.5/modules/generated/sklearn.preprocessing.StandardScaler.html
+onehot: https://scikit-learn.org/1.5/modules/generated/sklearn.preprocessing.OneHotEncoder.html
+simple imputer: https://scikit-learn.org/1.5/modules/generated/sklearn.impute.SimpleImputer.html
+stack classifier : https://scikit-learn.org/1.5/modules/generated/sklearn.ensemble.StackingClassifier.html#sklearn.ensemble.StackingClassifier
+sciktlearn Pipeline: https://scikit-learn.org/1.5/api/sklearn.pipeline.html
+
+pipelines:
+    - blog: https://towardsdatascience.com/how-to-use-sklearn-pipelines-for-ridiculously-neat-code-a61ab66ca90d
+    - documentation: https://scikit-learn.org/1.5/auto_examples/compose/plot_column_transformer_mixed_types.html
+
+ChatGPT:
+    format_results docstring
+    warning removal
+Paper: https://arxiv.org/pdf/2203.04921
+
+builder pattern: https://refactoring.guru/design-patterns/builder
+
+
+Limitations: 
+Feature selection experiments
+hyper parameter tunning
+data size 
+data size for EDA 
+Solving Data Imbalance
